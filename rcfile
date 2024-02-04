@@ -1,0 +1,25 @@
+# Reference
+# https://raw.githubusercontent.com/crawl/crawl/master/crawl-ref/docs/options_guide.txt
+
+autofight_stop = 69
+tile_web_mouse_control = false
+runrest_ignore_message += wither
+
+# Set training to manual by default
+default_manual_training = true
+
+############################
+### Travel & Exploration ###
+############################
+
+show_more = false
+rest_wait_both = true
+travel_delay = 5
+explore_delay = -1
+rest_delay = -1
+
+show_travel_trail = false
+explore_stop = artefacts,greedy_pickup_smart
+explore_stop += stairs,shops
+explore_stop += altars,portals,branches,runed_doors
+view_delay = 200
